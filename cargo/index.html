@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Cargo and Logistics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="C:\Users\Megha\OneDrive\Desktop\Internship\cargo\Cargo-Truck-Logo-Design.jpg" alt="Logo" class="logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>Welcome to Cargo and Logistics</h1>
+      <p>Efficient and reliable logistics solutions for your cargo needs.</p>
+      <a href="dashboard.html" class="btn-primary">Go to Dashboard</a>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="feature">
+          <h2>Real-time Tracking</h2>
+          <p>Track your shipments in real-time with our advanced tracking system.</p>
+        </div>
+        <div class="feature">
+          <h2>Efficient Logistics</h2>
+          <p>Manage your cargo with our streamlined logistics solutions.</p>
+        </div>
+        <div class="feature">
+          <h2>24/7 Support</h2>
+          <p>Our support team is available around the clock to assist you.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+<button class="chatbot-icon" id="chatbotIcon">💬</button>
+<div class="chatbot-container" id="chatbotContainer">
+    <div class="chatbot-header">
+        <h3>Chatbot</h3>
+    </div>
+    <div class="chatbot-body" id="chatbotBody">
+        <p>How can we assist you?</p>
+        <button onclick="sendMessage('How can I track my shipment?')">Track Shipment</button>
+        <button onclick="sendMessage('What are your delivery options?')">Delivery Options</button>
+        <button onclick="sendMessage('How can I contact support?')">Contact Support</button>
+    </div>
+</div>
+<script src="chatbot.js"></script>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Cargo and Logistics. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
